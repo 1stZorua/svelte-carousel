@@ -6,4 +6,6 @@
     <title>Svelte-Carousel</title>
 </svelte:head>
 
-<slot></slot>
+<div class="flex flex-col justify-center gap-20 items-center w-screen h-screen px-5">
+    <slot></slot>
+</div>
